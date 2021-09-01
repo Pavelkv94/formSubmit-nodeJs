@@ -40,7 +40,7 @@ app.post('/send', async function (req, res) {
         <div>Сообщение - ${message}</div>`, // html body
     });
 
-    res.send("ok")
+    res.send("Status ok")
 })
 
 app.listen(port, () => {
